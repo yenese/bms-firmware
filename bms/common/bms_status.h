@@ -9,19 +9,16 @@
 #ifndef BMS_STATUS_H
 #define BMS_STATUS_H
 
-/** Ortak dönüş/hata kodu. */
 typedef enum
 {
-    BMS_OK          = 0, /**< İşlem başarılı. */
-    BMS_ERR_PARAM   = 1, /**< Geçersiz parametre veya NULL işaretçi. */
-    BMS_ERR_TIMEOUT = 2, /**< Bekleme süresi doldu. */
-    BMS_ERR_CRC     = 3, /**< CRC uyuşmadı. */
-    BMS_ERR_COMM    = 4, /**< Yanıt yok veya hat hatası. */
-    BMS_ERR_RANGE   = 5, /**< Değer fiziksel/makul aralığın dışında. */
-    BMS_ERR_BUSY    = 6, /**< Kaynak meşgul, işlem şu an yapılamıyor. */
-    BMS_ERR_STATE   = 7  /**< Bu durumda izin verilmeyen işlem. */
+    BMS_OK          = 0,
+    BMS_ERR_PARAM   = 1,
+    BMS_ERR_TIMEOUT = 2,
+    BMS_ERR_CRC     = 3,
+    BMS_ERR_COMM    = 4,
+    BMS_ERR_RANGE   = 5,
+    BMS_ERR_BUSY    = 6,
+    BMS_ERR_STATE   = 7
 } bms_status_t;
 
 #endif /* BMS_STATUS_H */
-
-/*** end of file ***/

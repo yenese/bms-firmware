@@ -2,8 +2,6 @@
  *
  * @brief Ortak fiziksel büyüklük tipleri ve paket sabitleri.
  *
- * Bütün modüller ölçüm, kestirim ve zaman damgası değerlerini bu tiplerle
- * taşır. Birimler K-05 kararıyla sabittir (PROJE_DURUMU.md Bölüm 0):
  *
  * | Tip               | Taban tip  | Birim / aralık                          |
  * |-------------------|------------|-----------------------------------------|
@@ -24,6 +22,7 @@
 #define BMS_CELLS_IN_SERIES  (8u)
 
 typedef uint16_t bms_cell_mv_t;
+typedef uint16_t bms_pack_mv_t;
 typedef int32_t bms_ma_t;
 
 typedef int16_t bms_deci_degc_t;

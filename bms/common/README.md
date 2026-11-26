@@ -42,5 +42,4 @@ Her fonksiyon `bms_status_t` döndürür, çağıran dönüş değerini her zama
 
 ## Derleme
 
-`bms/common` include yoluna eklenmelidir (CubeIDE projesinde `bms/` henüz kaynak/include yolu değil).
-Bu klasörde yalnızca başlık dosyaları var.
+`bms/common` include yoluna eklenmelidir. Bu klasörde yalnızca başlık dosyaları var.
