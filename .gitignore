@@ -1,0 +1,23 @@
+# STM32CubeIDE derleme klasörleri
+Debug/
+Release/
+
+# Derleme çıktıları (klasör dışına düşerse diye)
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# Eclipse/CubeIDE çalışma alanı verisi
+.metadata/
+
+# İşletim sistemi ve editör dosyaları
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
